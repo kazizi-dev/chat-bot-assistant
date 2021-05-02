@@ -1,20 +1,23 @@
 
 import nltk
 from nltk.stem import WordNetLemmatizer
-lemmatizer = WordNetLemmatizer()
-import pickle
 import numpy as np
+import random
 
 from keras.models import load_model
 model = load_model('./results/chatbot_model.h5')
+
 import json
-import random
+import pickle
+
+
 intents = json.loads(open('./data/intents.json', encoding='utf-8').read())
 words = pickle.load(open('./results/words.pkl','rb'))
 classes = pickle.load(open('./results/classes.pkl','rb'))
 
 
 def clean_up_sentence(sentence):
+    lemmatizer = WordNetLemmatizer()
     sentence_words = nltk.word_tokenize(sentence)
     sentence_words = [lemmatizer.lemmatize(word.lower()) for word in sentence_words]
     return sentence_words
@@ -98,15 +101,9 @@ ChatLog.config(state=DISABLED)
 scrollbar = Scrollbar(base, command=ChatLog.yview, cursor="heart")
 ChatLog['yscrollcommand'] = scrollbar.set
 
-#Create Button to send message
-#SendButton = Button(base, font=("Verdana",12,'bold'), text="Send", width="12", height=5,
-  #                  bd=0, bg="#32de97", activebackground="#3c9d9b",fg='#ffffff',
-    #                command= send )
-
 #Create the box to enter message
 EntryBox = Text(base, bd=0, bg="#A6192E",width="29", height="5", font="Arial", fg='white')
 EntryBox.bind("<Return>", send)
-
 
 #Place all components on the screen
 scrollbar.place(x=376,y=6, height=386)

@@ -1,6 +1,6 @@
 .idea
-chatbot_model.h5
-words.pkl
+
+./results/*
 
 
 
