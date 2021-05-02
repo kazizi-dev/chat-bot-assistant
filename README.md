@@ -1,11 +1,16 @@
-<h1 align="center">Chatbot Assitant</h1>
+<h1 align="center">Chatbot Assistant</h1>
 <p align="center">
   <img width=495 height=275 src="images/wallpaper.jpg" />
 </p>
 <h3 align="center">Systems Hacks 2021</h3>
 
 
-## **Description:**
+# **Business Values:**
+- Increase customer conversion rate.
+- Fast customer support available 24/7.
+- Assist more customers with no additional cost.
+
+# **Project Details:**
 Systems Hacks is a hackathon for students who are interested to work in teams to work on projects that can have a real world impact.
 
 ## **Problem:**
@@ -27,7 +32,3 @@ Build a FAQ chatbot that can respond to user inquiries. To do this, we built and
 ## **Performance:**
 - The model has an accuracy of 0.9112 and a loss of 0.1485.
 
-## **Future Improvements:**
-- Train on a larger dataset.
-- Allow threaded discussion between the user and bot.
-- Enhance graphical user interface.
