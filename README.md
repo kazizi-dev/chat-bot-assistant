@@ -3,6 +3,10 @@
   <img width=495 height=275 src="images/wallpaper.jpg" />
 </p>
 
+<h4 align="center">Systems Hacks 2021</h4>
+<h1 align="center">Awarded the most "advanced project".</h1>
+
+
 ## **About:**
 Systems Hacks 2021 is a hackathon for students who are interested to work in teams to work on projects that can have a real world impact.
 
