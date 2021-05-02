@@ -1,4 +1,11 @@
-# Systems Hacks 2021
+# Chatbot Assistant
+<p align="center">
+  <img width=495 height=275 src="images/wallpaper.jpg" />
+</p>
+
+## **About:**
+Systems Hacks 2021 is a hackathon for students who are interested to work in teams to work on projects that can have a real world impact.
+
 ## **Problem:**
 Our current university website is not user-friendly, so it is hard to navigate espcially for new students.
 
@@ -16,7 +23,9 @@ Trained a chatbot model that can classify questions and answer them.
     * Inegrated Natural Langauge Processing (NLP) and Neural Netoworks (NN).
 
 ## **Performance:**
-- The models has an accuracy of 0.9112 and a loss of 0.1485.
+- The model has an accuracy of 0.9112 and a loss of 0.1485.
 
 ## **Future Improvements:**
-- Train on a larger dataset from SFU.
+- Train on a larger dataset.
+- Allow threaded discussion between the user and bot.
+- Enhance graphical user interface.
