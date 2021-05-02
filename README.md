@@ -5,14 +5,14 @@
 
 <h3 align="center">Systems Hacks 2021</h3>
 
-## **About:**
+## **Description:**
 Systems Hacks 2021 is a hackathon for students who are interested to work in teams to work on projects that can have a real world impact.
 
 ## **Problem:**
 Our current university website is not user-friendly, so it is hard to navigate espcially for new students.
 
 ## **Solution:**
-Build an FAQ chatbot that can assist the user with their questions. To do this, develop and train a model that can classify questions and answer them.
+Build a FAQ chatbot that can respond to user inquiries. To do this, we developed and trained a model that can classify questions and answer them.
 
 - ### Tools:
     * Machine Learning: Tensorflow
