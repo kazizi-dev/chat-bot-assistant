@@ -1,7 +1,4 @@
-<h1 align="center">Chatbot Assistant</h1>
-<p align="center">
-  <img width=495 height=275 src="images/chatbot-assistant.png" />
-</p>
+<h1 align="center"> Scuffedbot</h1>
 <h3 align="center">Systems Hacks 2021</h3>
 
 
