@@ -5,11 +5,6 @@
 <h3 align="center">Systems Hacks 2021</h3>
 
 
-# **Business Values:**
-- Increase customer conversion rate.
-- Fast customer support available 24/7.
-- Assist more customers with no additional cost.
-
 # **Project Details:**
 Systems Hacks is a hackathon for students who are interested to work in teams to work on projects that can have a real world impact.
 
