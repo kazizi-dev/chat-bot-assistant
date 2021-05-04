@@ -2,7 +2,7 @@
     "intents":[
        {
           "tag":"tuition",
-          "patterns":[
+          "questions":[
              "What is the tuition for a CS course?",
              "What is tuition per course?",
              "How much does a course cost?",
@@ -17,7 +17,7 @@
        },
        {
           "tag":"courses",
-          "patterns":[
+          "questions":[
              "How many courses do I need for my degree?",
              "What courses do I need to take for CS?",
              "What are the required courses?"
@@ -31,7 +31,7 @@
        },
        {
           "tag":"trash-talk",
-          "patterns":[
+          "questions":[
              "You are a bad bot.",
              "I'm mad at you.", "Fuck you", "Shitty, terrible, damned bot.",
              ""
@@ -46,7 +46,7 @@
        },
        {
           "tag":"campus_life_residence",
-          "patterns":[
+          "questions":[
              "Is it possible to live on campus?",
              "How can I apply to live on campus?",
              "I want to experience living on campus."
@@ -60,7 +60,7 @@
        },
        {
           "tag":"campus_life_campus_dining",
-          "patterns":[
+          "questions":[
              "Is there any cafeteria?",
              "How can I eat on campus?",
              "Anything to drink on campus?"
@@ -74,7 +74,7 @@
        },
        {
           "tag":"campus_life_social life",
-          "patterns":[
+          "questions":[
              "How is the social life at SFU?",
              "How is the party at SFU?",
              "How is the student life at SFU?"
@@ -88,7 +88,7 @@
        },
        {
           "tag":"campus_life_athletics",
-          "patterns":[
+          "questions":[
              "Is the gym open for everyone?",
              "gym",
              "stadium",
@@ -104,7 +104,7 @@
        },
        {
           "tag":"campus_life_recreation",
-          "patterns":[
+          "questions":[
              "What recreation activities does SFU provide?",
              "Does SFU provide any events during the semester?",
              "social events"
@@ -118,7 +118,7 @@
        },
        {
           "tag":"campus_location",
-          "patterns":[
+          "questions":[
              "How many campus does SFU has?",
              "Where is the nearest campus?",
              "Does SFU has campus in Downtown ?",
@@ -134,7 +134,7 @@
        },
        {
           "tag":"campus_access",
-          "patterns":[
+          "questions":[
              "How can I access SFU campus?",
              "Is SFU commuter or transportation friendly? ",
              "Can I take the bus or drive to SFU?"
@@ -148,7 +148,7 @@
        },
        {
           "tag":"admissions",
-          "patterns":[
+          "questions":[
              "Where can I apply?",
              "Where should I apply?",
              "Where apply?"
@@ -162,7 +162,7 @@
        },
        {
           "tag":"admission_cost",
-          "patterns":[
+          "questions":[
              "How much does it cost to apply?",
              "How much to apply?",
              "Cost of application?"
@@ -176,7 +176,7 @@
        },
        {
           "tag":"scholarships",
-          "patterns":[
+          "questions":[
              "What scholarships do you offer",
              "How can I get a scholarship",
              "What is the requirement for scholarships",
@@ -192,7 +192,7 @@
        },
        {
           "tag":"programs",
-          "patterns":[
+          "questions":[
              "What programs do you offer?",
              "What programs does SFU offer?"
           ],
@@ -205,7 +205,7 @@
        },
        {
           "tag":"requirements",
-          "patterns":[
+          "questions":[
              "What is the main requirement for entry?",
              "What is the minimum entry requirement?",
              "What GPA do I need to get in to SFU"
@@ -219,7 +219,7 @@
        },
        {
           "tag":"offer",
-          "patterns":[
+          "questions":[
              "When can I expect an offer?",
              "When will you respond to my application",
              "When do you send out offers?"
@@ -233,7 +233,7 @@
        },
        {
           "tag":"FIC",
-          "patterns":[
+          "questions":[
              "How can I transfer from FIC to SFU?"
           ],
           "responses":[
@@ -245,7 +245,7 @@
        },
        {
           "tag":"evaluation",
-          "patterns":[
+          "questions":[
              "How will my admissions be evaluated?"
           ],
           "responses":[
@@ -257,7 +257,7 @@
        },
        {
           "tag":"greeting",
-          "patterns":[
+          "questions":[
              "Hi there",
              "How are you",
              "Is anyone there?",
@@ -277,7 +277,7 @@
        },
        {
           "tag":"goodbye",
-          "patterns":[
+          "questions":[
              "Bye",
              "See you later",
              "Goodbye",
@@ -295,7 +295,7 @@
        },
        {
           "tag":"thanks",
-          "patterns":[
+          "questions":[
              "Thanks",
              "Thank you",
              "That's helpful.",
@@ -313,7 +313,7 @@
        },
        {
           "tag":"noanswer",
-          "patterns":[
+          "questions":[
              
           ],
           "responses":[
@@ -327,7 +327,7 @@
        },
        {
           "tag":"internal_transfers",
-          "patterns":[
+          "questions":[
              "How does Internal Transfer work?",
              "I want to transfer within SFU.",
              "I want to switch programs."
@@ -341,7 +341,7 @@
        },
        {
           "tag":"external_transfers",
-          "patterns":[
+          "questions":[
              "Bye",
              "See you later",
              "Goodbye",
@@ -359,7 +359,7 @@
        },
        {
           "tag":"gpa_transfers",
-          "patterns":[
+          "questions":[
              "What GPA do I need to transfer?",
              "What is the minimum GPA to switch programs at SFU?"
           ],
@@ -372,7 +372,7 @@
        },
        {
           "tag":"transfer_credits_college",
-          "patterns":[
+          "questions":[
              "Can I transfer credits from another college?",
              "How many credits can I transfer from a different college or university?"
           ],
@@ -385,7 +385,7 @@
        },
        {
           "tag":"transfer_credits_ap",
-          "patterns":[
+          "questions":[
              "Can I transfer credits from high school if I took AP?"
           ],
           "responses":[
@@ -397,7 +397,7 @@
        },
        {
           "tag":"confusion",
-          "patterns":[
+          "questions":[
              "What?",
              "I am confused about what your saying",
              "I am confused"
@@ -411,7 +411,7 @@
        },
        {
           "tag":"confusion_1",
-          "patterns":[
+          "questions":[
              "I do not understand what you are saying",
              "I dont understand Japaneese"
           ],
@@ -424,7 +424,7 @@
        },
        {
          "tag":"confusion_2",
-         "patterns":[
+         "questions":[
             "I am lost, please speak in English"
          ],
          "responses":[
