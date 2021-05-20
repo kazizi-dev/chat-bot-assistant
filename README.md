@@ -35,4 +35,4 @@ Build a FAQ chatbot that can respond to user inquiries. To do this, we built and
 1. **Kourosh:** natural language processing using nltk, refactoring code, and documentation
 2. **Kaveh:** neural network using keras and tensorflow
 3. **Iranges:** presentation, GUI setup
-4. **Myckland:** presentation, report
+4. **Myckland:** presentation, report, intents, refactoring code
